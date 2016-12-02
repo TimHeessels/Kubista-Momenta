@@ -1,0 +1,1915 @@
+fileFormatVersion: 2
+guid: 9cbdc27c033b8d54a8d67b141cde9683
+timeCreated: 1480597028
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BendPipe
+    100002: BendPipe001
+    100004: BendPipe002
+    100006: BendPipe003
+    100008: BendPipe004
+    100010: BendPipe005
+    100012: BendPipe006
+    100014: BendPipe007
+    100016: BendPipe008
+    100018: BendPipe009
+    100020: BendPipe010
+    100022: BendPipe011
+    100024: CartBox
+    100026: ChainsLeft
+    100028: ChainsRight
+    100030: Cog_Closed002
+    100032: Cog_Closed003
+    100034: Cog_Closed004
+    100036: Cog_Open001
+    100038: Cog_Open002
+    100040: Cog_Open003
+    100042: Cog_Open004
+    100044: Cog_Open005
+    100046: Cog_Open006
+    100048: Cog_Open007
+    100050: Cog_Small002
+    100052: Cog_Small003
+    100054: Cog_Small004
+    100056: Cog_Small005
+    100058: Cog_Small006
+    100060: Cog_Small007
+    100062: Cog_Small008
+    100064: Cog_Small009
+    100066: Cog_Small010
+    100068: Cog_Small011
+    100070: Cog_Small012
+    100072: Cog_Small013
+    100074: Cog_Small014
+    100076: CogDouble001
+    100078: CogDouble002
+    100080: CogFilled001
+    100082: CogOpen001
+    100084: CogOpen002
+    100086: CogOpen003
+    100088: CogOpen004
+    100090: CogOpen005
+    100092: CogOpen006
+    100094: CogOpen007
+    100096: CogSmall001
+    100098: CogSmall002
+    100100: CogSmall003
+    100102: CogSmall004
+    100104: CogSmall005
+    100106: CogSmall006
+    100108: CogSmall007
+    100110: CogSmall008
+    100112: CogSmall009
+    100114: CogSmall010
+    100116: CogSmall011
+    100118: CrossingPipe
+    100120: CrossingPipe001
+    100122: CrossingPipe002
+    100124: Cube
+    100126: Cylinder001
+    100128: Cylinder003
+    100130: Cylinder004
+    100132: //RootNode
+    100134: Hoekje001
+    100136: Hoekje002
+    100138: Hoekje003
+    100140: Hoekje004
+    100142: Hoekje005
+    100144: Hoekje006
+    100146: Hoekje007
+    100148: Hoekje008
+    100150: Hoekje009
+    100152: Hoekje010
+    100154: Hoekje011
+    100156: Hoekje012
+    100158: Knob004
+    100160: Knob005
+    100162: Knob006
+    100164: Knob007
+    100166: Knob008
+    100168: Knob009
+    100170: Knob010
+    100172: Knob011
+    100174: Knob012
+    100176: Knob013
+    100178: Knob014
+    100180: Knob015
+    100182: Knob016
+    100184: Knob017
+    100186: Knob018
+    100188: Knob019
+    100190: Knob020
+    100192: Knob021
+    100194: Knob022
+    100196: Knob023
+    100198: Knob024
+    100200: Lift
+    100202: Line014
+    100204: Line027
+    100206: Line113
+    100208: Line114
+    100210: Line115
+    100212: Line116
+    100214: Line117
+    100216: Line118
+    100218: Line119
+    100220: Line120
+    100222: Line122
+    100224: Line123
+    100226: Line124
+    100228: Line125
+    100230: Line126
+    100232: Line127
+    100234: Line128
+    100236: Line129
+    100238: Line130
+    100240: Line132
+    100242: Line133
+    100244: Line134
+    100246: Line143
+    100248: Line144
+    100250: Line145
+    100252: Line146
+    100254: Line147
+    100256: Line148
+    100258: Line149
+    100260: Line150
+    100262: Line151
+    100264: Line152
+    100266: Line153
+    100268: Line154
+    100270: Line155
+    100272: Line156
+    100274: Line157
+    100276: Line158
+    100278: Line159
+    100280: Line160
+    100282: Line161
+    100284: Line162
+    100286: Line163
+    100288: Line164
+    100290: Line165
+    100292: Line166
+    100294: Line167
+    100296: Line168
+    100298: Line169
+    100300: Line170
+    100302: Line171
+    100304: Line172
+    100306: Line173
+    100308: Line174
+    100310: Line175
+    100312: Line176
+    100314: Line177
+    100316: Line178
+    100318: Line179
+    100320: Line180
+    100322: Line182
+    100324: Line183
+    100326: Line184
+    100328: Line185
+    100330: Line186
+    100332: Line187
+    100334: Line188
+    100336: NGon002
+    100338: NGon004
+    100340: NGon005
+    100342: RailsLeftBack
+    100344: RailsLeftFront
+    100346: RailsRightBack
+    100348: RailsRightBack001
+    100350: RailsRightBack002
+    100352: RailsRightFront
+    100354: Recht stuk
+    100356: Recht stuk005
+    100358: Recht stuk007
+    100360: Recht stuk008
+    100362: Recht stuk012
+    100364: Recht stuk013
+    100366: Recht stuk015
+    100368: Recht stuk016
+    100370: Recht stuk017
+    100372: Recht stuk018
+    100374: Recht stuk019
+    100376: Recht stuk020
+    100378: Recht stuk021
+    100380: Recht stuk022
+    100382: Recht stuk023
+    100384: Recht stuk024
+    100386: Recht stuk026
+    100388: Recht stuk027
+    100390: Recht stuk028
+    100392: Recht stuk036
+    100394: Recht stuk037
+    100396: Recht stuk038
+    100398: Recht stuk039
+    100400: Recht stuk040
+    100402: Recht stuk041
+    100404: Recht stuk042
+    100406: Recht stuk043
+    100408: Recht stuk044
+    100410: Recht stuk045
+    100412: Recht stuk046
+    100414: Recht stuk047
+    100416: Recht stuk048
+    100418: Recht stuk049
+    100420: Recht stuk050
+    100422: Recht stuk051
+    100424: Recht stuk052
+    100426: Recht stuk053
+    100428: Recht stuk054
+    100430: Recht stuk055
+    100432: Recht stuk056
+    100434: Recht stuk057
+    100436: Recht stuk058
+    100438: Recht stuk059
+    100440: Recht stuk060
+    100442: Recht stuk061
+    100444: Recht stuk062
+    100446: Recht stuk063
+    100448: Recht stuk064
+    100450: Recht stuk065
+    100452: Recht stuk066
+    100454: Recht stuk067
+    100456: Recht stuk068
+    100458: Recht stuk069
+    100460: Recht stuk070
+    100462: Recht stuk071
+    100464: Recht stuk072
+    100466: Recht stuk073
+    100468: Recht stuk075
+    100470: Recht stuk076
+    100472: Recht stuk077
+    100474: Recht stuk078
+    100476: Recht stuk079
+    100478: Recht stuk080
+    100480: Recht stuk081
+    100482: Recht stuk082
+    100484: Recht stuk083
+    100486: StraightPipe
+    100488: StraightPipe002
+    100490: StraightPipe003
+    100492: StraightPipe004
+    100494: StraightPipe006
+    100496: StraightPipe007
+    100498: StraightPipe008
+    100500: StraightPipe015
+    100502: StraightPipe016
+    100504: StraightPipe017
+    100506: StraightPipe018
+    100508: StraightPipe019
+    100510: StraightPipe020
+    100512: StraightPipe021
+    100514: StraightPipe022
+    100516: StraightPipe023
+    100518: StraightPipe024
+    100520: StraightPipe025
+    100522: StraightPipe026
+    100524: StraightPipe027
+    100526: StraightPipe028
+    100528: StraightPipe029
+    100530: StraightPipe030
+    100532: StraightPipe031
+    100534: StraightPipe032
+    100536: StraightPipe033
+    100538: StraightPipe034
+    100540: StraightPipe035
+    100542: StraightPipe036
+    100544: StraightPipe037
+    100546: StraightPipe038
+    100548: StraightPipe039
+    100550: StraightPipe040
+    100552: StraightPipe042
+    100554: StraightPipe043
+    100556: StraightPipe044
+    100558: StraightPipe045
+    100560: StraightPipe046
+    100562: StraightPipe047
+    100564: StraightPipe048
+    100566: TPipe
+    100568: TPipe001
+    100570: TPipe002
+    100572: TPipe003
+    100574: TPipe004
+    100576: TPipe005
+    100578: ValvePipe
+    100580: ValvePipe002
+    100582: ValvePipe003
+    100584: Wheel002
+    100586: Wheel003
+    100588: Wheel004
+    100590: Wheel005
+    400000: BendPipe
+    400002: BendPipe001
+    400004: BendPipe002
+    400006: BendPipe003
+    400008: BendPipe004
+    400010: BendPipe005
+    400012: BendPipe006
+    400014: BendPipe007
+    400016: BendPipe008
+    400018: BendPipe009
+    400020: BendPipe010
+    400022: BendPipe011
+    400024: CartBox
+    400026: ChainsLeft
+    400028: ChainsRight
+    400030: Cog_Closed002
+    400032: Cog_Closed003
+    400034: Cog_Closed004
+    400036: Cog_Open001
+    400038: Cog_Open002
+    400040: Cog_Open003
+    400042: Cog_Open004
+    400044: Cog_Open005
+    400046: Cog_Open006
+    400048: Cog_Open007
+    400050: Cog_Small002
+    400052: Cog_Small003
+    400054: Cog_Small004
+    400056: Cog_Small005
+    400058: Cog_Small006
+    400060: Cog_Small007
+    400062: Cog_Small008
+    400064: Cog_Small009
+    400066: Cog_Small010
+    400068: Cog_Small011
+    400070: Cog_Small012
+    400072: Cog_Small013
+    400074: Cog_Small014
+    400076: CogDouble001
+    400078: CogDouble002
+    400080: CogFilled001
+    400082: CogOpen001
+    400084: CogOpen002
+    400086: CogOpen003
+    400088: CogOpen004
+    400090: CogOpen005
+    400092: CogOpen006
+    400094: CogOpen007
+    400096: CogSmall001
+    400098: CogSmall002
+    400100: CogSmall003
+    400102: CogSmall004
+    400104: CogSmall005
+    400106: CogSmall006
+    400108: CogSmall007
+    400110: CogSmall008
+    400112: CogSmall009
+    400114: CogSmall010
+    400116: CogSmall011
+    400118: CrossingPipe
+    400120: CrossingPipe001
+    400122: CrossingPipe002
+    400124: Cube
+    400126: Cylinder001
+    400128: Cylinder003
+    400130: Cylinder004
+    400132: //RootNode
+    400134: Hoekje001
+    400136: Hoekje002
+    400138: Hoekje003
+    400140: Hoekje004
+    400142: Hoekje005
+    400144: Hoekje006
+    400146: Hoekje007
+    400148: Hoekje008
+    400150: Hoekje009
+    400152: Hoekje010
+    400154: Hoekje011
+    400156: Hoekje012
+    400158: Knob004
+    400160: Knob005
+    400162: Knob006
+    400164: Knob007
+    400166: Knob008
+    400168: Knob009
+    400170: Knob010
+    400172: Knob011
+    400174: Knob012
+    400176: Knob013
+    400178: Knob014
+    400180: Knob015
+    400182: Knob016
+    400184: Knob017
+    400186: Knob018
+    400188: Knob019
+    400190: Knob020
+    400192: Knob021
+    400194: Knob022
+    400196: Knob023
+    400198: Knob024
+    400200: Lift
+    400202: Line014
+    400204: Line027
+    400206: Line113
+    400208: Line114
+    400210: Line115
+    400212: Line116
+    400214: Line117
+    400216: Line118
+    400218: Line119
+    400220: Line120
+    400222: Line122
+    400224: Line123
+    400226: Line124
+    400228: Line125
+    400230: Line126
+    400232: Line127
+    400234: Line128
+    400236: Line129
+    400238: Line130
+    400240: Line132
+    400242: Line133
+    400244: Line134
+    400246: Line143
+    400248: Line144
+    400250: Line145
+    400252: Line146
+    400254: Line147
+    400256: Line148
+    400258: Line149
+    400260: Line150
+    400262: Line151
+    400264: Line152
+    400266: Line153
+    400268: Line154
+    400270: Line155
+    400272: Line156
+    400274: Line157
+    400276: Line158
+    400278: Line159
+    400280: Line160
+    400282: Line161
+    400284: Line162
+    400286: Line163
+    400288: Line164
+    400290: Line165
+    400292: Line166
+    400294: Line167
+    400296: Line168
+    400298: Line169
+    400300: Line170
+    400302: Line171
+    400304: Line172
+    400306: Line173
+    400308: Line174
+    400310: Line175
+    400312: Line176
+    400314: Line177
+    400316: Line178
+    400318: Line179
+    400320: Line180
+    400322: Line182
+    400324: Line183
+    400326: Line184
+    400328: Line185
+    400330: Line186
+    400332: Line187
+    400334: Line188
+    400336: NGon002
+    400338: NGon004
+    400340: NGon005
+    400342: RailsLeftBack
+    400344: RailsLeftFront
+    400346: RailsRightBack
+    400348: RailsRightBack001
+    400350: RailsRightBack002
+    400352: RailsRightFront
+    400354: Recht stuk
+    400356: Recht stuk005
+    400358: Recht stuk007
+    400360: Recht stuk008
+    400362: Recht stuk012
+    400364: Recht stuk013
+    400366: Recht stuk015
+    400368: Recht stuk016
+    400370: Recht stuk017
+    400372: Recht stuk018
+    400374: Recht stuk019
+    400376: Recht stuk020
+    400378: Recht stuk021
+    400380: Recht stuk022
+    400382: Recht stuk023
+    400384: Recht stuk024
+    400386: Recht stuk026
+    400388: Recht stuk027
+    400390: Recht stuk028
+    400392: Recht stuk036
+    400394: Recht stuk037
+    400396: Recht stuk038
+    400398: Recht stuk039
+    400400: Recht stuk040
+    400402: Recht stuk041
+    400404: Recht stuk042
+    400406: Recht stuk043
+    400408: Recht stuk044
+    400410: Recht stuk045
+    400412: Recht stuk046
+    400414: Recht stuk047
+    400416: Recht stuk048
+    400418: Recht stuk049
+    400420: Recht stuk050
+    400422: Recht stuk051
+    400424: Recht stuk052
+    400426: Recht stuk053
+    400428: Recht stuk054
+    400430: Recht stuk055
+    400432: Recht stuk056
+    400434: Recht stuk057
+    400436: Recht stuk058
+    400438: Recht stuk059
+    400440: Recht stuk060
+    400442: Recht stuk061
+    400444: Recht stuk062
+    400446: Recht stuk063
+    400448: Recht stuk064
+    400450: Recht stuk065
+    400452: Recht stuk066
+    400454: Recht stuk067
+    400456: Recht stuk068
+    400458: Recht stuk069
+    400460: Recht stuk070
+    400462: Recht stuk071
+    400464: Recht stuk072
+    400466: Recht stuk073
+    400468: Recht stuk075
+    400470: Recht stuk076
+    400472: Recht stuk077
+    400474: Recht stuk078
+    400476: Recht stuk079
+    400478: Recht stuk080
+    400480: Recht stuk081
+    400482: Recht stuk082
+    400484: Recht stuk083
+    400486: StraightPipe
+    400488: StraightPipe002
+    400490: StraightPipe003
+    400492: StraightPipe004
+    400494: StraightPipe006
+    400496: StraightPipe007
+    400498: StraightPipe008
+    400500: StraightPipe015
+    400502: StraightPipe016
+    400504: StraightPipe017
+    400506: StraightPipe018
+    400508: StraightPipe019
+    400510: StraightPipe020
+    400512: StraightPipe021
+    400514: StraightPipe022
+    400516: StraightPipe023
+    400518: StraightPipe024
+    400520: StraightPipe025
+    400522: StraightPipe026
+    400524: StraightPipe027
+    400526: StraightPipe028
+    400528: StraightPipe029
+    400530: StraightPipe030
+    400532: StraightPipe031
+    400534: StraightPipe032
+    400536: StraightPipe033
+    400538: StraightPipe034
+    400540: StraightPipe035
+    400542: StraightPipe036
+    400544: StraightPipe037
+    400546: StraightPipe038
+    400548: StraightPipe039
+    400550: StraightPipe040
+    400552: StraightPipe042
+    400554: StraightPipe043
+    400556: StraightPipe044
+    400558: StraightPipe045
+    400560: StraightPipe046
+    400562: StraightPipe047
+    400564: StraightPipe048
+    400566: TPipe
+    400568: TPipe001
+    400570: TPipe002
+    400572: TPipe003
+    400574: TPipe004
+    400576: TPipe005
+    400578: ValvePipe
+    400580: ValvePipe002
+    400582: ValvePipe003
+    400584: Wheel002
+    400586: Wheel003
+    400588: Wheel004
+    400590: Wheel005
+    2300000: CartBox
+    2300002: ChainsLeft
+    2300004: ChainsRight
+    2300006: Cog_Closed002
+    2300008: Cog_Closed003
+    2300010: Cog_Closed004
+    2300012: Cog_Open001
+    2300014: Cog_Open002
+    2300016: Cog_Open003
+    2300018: Cog_Open004
+    2300020: Cog_Open005
+    2300022: Cog_Open006
+    2300024: Cog_Open007
+    2300026: Cog_Small002
+    2300028: Cog_Small003
+    2300030: Cog_Small004
+    2300032: Cog_Small005
+    2300034: Cog_Small006
+    2300036: Cog_Small007
+    2300038: Cog_Small008
+    2300040: Cog_Small009
+    2300042: Cog_Small010
+    2300044: Cog_Small011
+    2300046: Cog_Small012
+    2300048: Cog_Small013
+    2300050: Cog_Small014
+    2300052: Cube
+    2300054: Cylinder001
+    2300056: Cylinder003
+    2300058: Cylinder004
+    2300060: Hoekje001
+    2300062: Hoekje002
+    2300064: Hoekje003
+    2300066: Hoekje004
+    2300068: Hoekje005
+    2300070: Hoekje006
+    2300072: Hoekje007
+    2300074: Hoekje008
+    2300076: Hoekje009
+    2300078: Hoekje010
+    2300080: Hoekje011
+    2300082: Hoekje012
+    2300084: Knob004
+    2300086: Knob005
+    2300088: Knob006
+    2300090: Knob007
+    2300092: Knob008
+    2300094: Knob009
+    2300096: Knob010
+    2300098: Knob011
+    2300100: Knob012
+    2300102: Knob013
+    2300104: Knob014
+    2300106: Knob015
+    2300108: Knob016
+    2300110: Knob017
+    2300112: Knob018
+    2300114: Knob019
+    2300116: Knob020
+    2300118: Knob021
+    2300120: Knob022
+    2300122: Knob023
+    2300124: Knob024
+    2300126: Lift
+    2300128: Line014
+    2300130: Line027
+    2300132: Line113
+    2300134: Line114
+    2300136: Line115
+    2300138: Line116
+    2300140: Line117
+    2300142: Line118
+    2300144: Line119
+    2300146: Line120
+    2300148: Line122
+    2300150: Line123
+    2300152: Line124
+    2300154: Line125
+    2300156: Line126
+    2300158: Line127
+    2300160: Line128
+    2300162: Line129
+    2300164: Line130
+    2300166: Line132
+    2300168: Line133
+    2300170: Line134
+    2300172: Line143
+    2300174: Line144
+    2300176: Line145
+    2300178: Line146
+    2300180: Line147
+    2300182: Line148
+    2300184: Line149
+    2300186: Line150
+    2300188: Line151
+    2300190: Line152
+    2300192: Line153
+    2300194: Line154
+    2300196: Line155
+    2300198: Line156
+    2300200: Line157
+    2300202: Line158
+    2300204: Line159
+    2300206: Line160
+    2300208: Line161
+    2300210: Line162
+    2300212: Line163
+    2300214: Line164
+    2300216: Line165
+    2300218: Line166
+    2300220: Line167
+    2300222: Line168
+    2300224: Line169
+    2300226: Line170
+    2300228: Line171
+    2300230: Line172
+    2300232: Line173
+    2300234: Line174
+    2300236: Line175
+    2300238: Line176
+    2300240: Line177
+    2300242: Line178
+    2300244: Line179
+    2300246: Line180
+    2300248: Line182
+    2300250: Line183
+    2300252: Line184
+    2300254: Line185
+    2300256: Line186
+    2300258: Line187
+    2300260: Line188
+    2300262: NGon002
+    2300264: NGon004
+    2300266: NGon005
+    2300268: RailsLeftBack
+    2300270: RailsLeftFront
+    2300272: RailsRightBack
+    2300274: RailsRightBack001
+    2300276: RailsRightBack002
+    2300278: RailsRightFront
+    2300280: Recht stuk
+    2300282: Recht stuk005
+    2300284: Recht stuk007
+    2300286: Recht stuk008
+    2300288: Recht stuk012
+    2300290: Recht stuk013
+    2300292: Recht stuk015
+    2300294: Recht stuk016
+    2300296: Recht stuk017
+    2300298: Recht stuk018
+    2300300: Recht stuk019
+    2300302: Recht stuk020
+    2300304: Recht stuk021
+    2300306: Recht stuk022
+    2300308: Recht stuk023
+    2300310: Recht stuk024
+    2300312: Recht stuk026
+    2300314: Recht stuk027
+    2300316: Recht stuk028
+    2300318: Recht stuk036
+    2300320: Recht stuk037
+    2300322: Recht stuk038
+    2300324: Recht stuk039
+    2300326: Recht stuk040
+    2300328: Recht stuk041
+    2300330: Recht stuk042
+    2300332: Recht stuk043
+    2300334: Recht stuk044
+    2300336: Recht stuk045
+    2300338: Recht stuk046
+    2300340: Recht stuk047
+    2300342: Recht stuk048
+    2300344: Recht stuk049
+    2300346: Recht stuk050
+    2300348: Recht stuk051
+    2300350: Recht stuk052
+    2300352: Recht stuk053
+    2300354: Recht stuk054
+    2300356: Recht stuk055
+    2300358: Recht stuk056
+    2300360: Recht stuk057
+    2300362: Recht stuk058
+    2300364: Recht stuk059
+    2300366: Recht stuk060
+    2300368: Recht stuk061
+    2300370: Recht stuk062
+    2300372: Recht stuk063
+    2300374: Recht stuk064
+    2300376: Recht stuk065
+    2300378: Recht stuk066
+    2300380: Recht stuk067
+    2300382: Recht stuk068
+    2300384: Recht stuk069
+    2300386: Recht stuk070
+    2300388: Recht stuk071
+    2300390: Recht stuk072
+    2300392: Recht stuk073
+    2300394: Recht stuk075
+    2300396: Recht stuk076
+    2300398: Recht stuk077
+    2300400: Recht stuk078
+    2300402: Recht stuk079
+    2300404: Recht stuk080
+    2300406: Recht stuk081
+    2300408: Recht stuk082
+    2300410: Recht stuk083
+    2300412: Wheel002
+    2300414: Wheel003
+    2300416: Wheel004
+    2300418: Wheel005
+    3300000: CartBox
+    3300002: ChainsLeft
+    3300004: ChainsRight
+    3300006: Cog_Closed002
+    3300008: Cog_Closed003
+    3300010: Cog_Closed004
+    3300012: Cog_Open001
+    3300014: Cog_Open002
+    3300016: Cog_Open003
+    3300018: Cog_Open004
+    3300020: Cog_Open005
+    3300022: Cog_Open006
+    3300024: Cog_Open007
+    3300026: Cog_Small002
+    3300028: Cog_Small003
+    3300030: Cog_Small004
+    3300032: Cog_Small005
+    3300034: Cog_Small006
+    3300036: Cog_Small007
+    3300038: Cog_Small008
+    3300040: Cog_Small009
+    3300042: Cog_Small010
+    3300044: Cog_Small011
+    3300046: Cog_Small012
+    3300048: Cog_Small013
+    3300050: Cog_Small014
+    3300052: Cube
+    3300054: Cylinder001
+    3300056: Cylinder003
+    3300058: Cylinder004
+    3300060: Hoekje001
+    3300062: Hoekje002
+    3300064: Hoekje003
+    3300066: Hoekje004
+    3300068: Hoekje005
+    3300070: Hoekje006
+    3300072: Hoekje007
+    3300074: Hoekje008
+    3300076: Hoekje009
+    3300078: Hoekje010
+    3300080: Hoekje011
+    3300082: Hoekje012
+    3300084: Knob004
+    3300086: Knob005
+    3300088: Knob006
+    3300090: Knob007
+    3300092: Knob008
+    3300094: Knob009
+    3300096: Knob010
+    3300098: Knob011
+    3300100: Knob012
+    3300102: Knob013
+    3300104: Knob014
+    3300106: Knob015
+    3300108: Knob016
+    3300110: Knob017
+    3300112: Knob018
+    3300114: Knob019
+    3300116: Knob020
+    3300118: Knob021
+    3300120: Knob022
+    3300122: Knob023
+    3300124: Knob024
+    3300126: Lift
+    3300128: Line014
+    3300130: Line027
+    3300132: Line113
+    3300134: Line114
+    3300136: Line115
+    3300138: Line116
+    3300140: Line117
+    3300142: Line118
+    3300144: Line119
+    3300146: Line120
+    3300148: Line122
+    3300150: Line123
+    3300152: Line124
+    3300154: Line125
+    3300156: Line126
+    3300158: Line127
+    3300160: Line128
+    3300162: Line129
+    3300164: Line130
+    3300166: Line132
+    3300168: Line133
+    3300170: Line134
+    3300172: Line143
+    3300174: Line144
+    3300176: Line145
+    3300178: Line146
+    3300180: Line147
+    3300182: Line148
+    3300184: Line149
+    3300186: Line150
+    3300188: Line151
+    3300190: Line152
+    3300192: Line153
+    3300194: Line154
+    3300196: Line155
+    3300198: Line156
+    3300200: Line157
+    3300202: Line158
+    3300204: Line159
+    3300206: Line160
+    3300208: Line161
+    3300210: Line162
+    3300212: Line163
+    3300214: Line164
+    3300216: Line165
+    3300218: Line166
+    3300220: Line167
+    3300222: Line168
+    3300224: Line169
+    3300226: Line170
+    3300228: Line171
+    3300230: Line172
+    3300232: Line173
+    3300234: Line174
+    3300236: Line175
+    3300238: Line176
+    3300240: Line177
+    3300242: Line178
+    3300244: Line179
+    3300246: Line180
+    3300248: Line182
+    3300250: Line183
+    3300252: Line184
+    3300254: Line185
+    3300256: Line186
+    3300258: Line187
+    3300260: Line188
+    3300262: NGon002
+    3300264: NGon004
+    3300266: NGon005
+    3300268: RailsLeftBack
+    3300270: RailsLeftFront
+    3300272: RailsRightBack
+    3300274: RailsRightBack001
+    3300276: RailsRightBack002
+    3300278: RailsRightFront
+    3300280: Recht stuk
+    3300282: Recht stuk005
+    3300284: Recht stuk007
+    3300286: Recht stuk008
+    3300288: Recht stuk012
+    3300290: Recht stuk013
+    3300292: Recht stuk015
+    3300294: Recht stuk016
+    3300296: Recht stuk017
+    3300298: Recht stuk018
+    3300300: Recht stuk019
+    3300302: Recht stuk020
+    3300304: Recht stuk021
+    3300306: Recht stuk022
+    3300308: Recht stuk023
+    3300310: Recht stuk024
+    3300312: Recht stuk026
+    3300314: Recht stuk027
+    3300316: Recht stuk028
+    3300318: Recht stuk036
+    3300320: Recht stuk037
+    3300322: Recht stuk038
+    3300324: Recht stuk039
+    3300326: Recht stuk040
+    3300328: Recht stuk041
+    3300330: Recht stuk042
+    3300332: Recht stuk043
+    3300334: Recht stuk044
+    3300336: Recht stuk045
+    3300338: Recht stuk046
+    3300340: Recht stuk047
+    3300342: Recht stuk048
+    3300344: Recht stuk049
+    3300346: Recht stuk050
+    3300348: Recht stuk051
+    3300350: Recht stuk052
+    3300352: Recht stuk053
+    3300354: Recht stuk054
+    3300356: Recht stuk055
+    3300358: Recht stuk056
+    3300360: Recht stuk057
+    3300362: Recht stuk058
+    3300364: Recht stuk059
+    3300366: Recht stuk060
+    3300368: Recht stuk061
+    3300370: Recht stuk062
+    3300372: Recht stuk063
+    3300374: Recht stuk064
+    3300376: Recht stuk065
+    3300378: Recht stuk066
+    3300380: Recht stuk067
+    3300382: Recht stuk068
+    3300384: Recht stuk069
+    3300386: Recht stuk070
+    3300388: Recht stuk071
+    3300390: Recht stuk072
+    3300392: Recht stuk073
+    3300394: Recht stuk075
+    3300396: Recht stuk076
+    3300398: Recht stuk077
+    3300400: Recht stuk078
+    3300402: Recht stuk079
+    3300404: Recht stuk080
+    3300406: Recht stuk081
+    3300408: Recht stuk082
+    3300410: Recht stuk083
+    3300412: Wheel002
+    3300414: Wheel003
+    3300416: Wheel004
+    3300418: Wheel005
+    4300000: Cube
+    4300002: RailsLeftFront
+    4300004: RailsLeftBack
+    4300006: Lift
+    4300008: RailsRightBack
+    4300010: RailsRightFront
+    4300012: CartBox
+    4300014: Wheel002
+    4300016: Wheel003
+    4300018: ChainsLeft
+    4300020: ChainsRight
+    4300022: Wheel004
+    4300024: Wheel005
+    4300026: Cog_Small002
+    4300028: Knob004
+    4300030: Cog_Closed002
+    4300032: Knob005
+    4300034: Cog_Open001
+    4300036: Knob006
+    4300038: Cog_Open002
+    4300040: Cog_Closed003
+    4300042: Knob007
+    4300044: Cog_Small003
+    4300046: Knob008
+    4300048: Knob009
+    4300050: Cog_Open003
+    4300052: Cog_Small004
+    4300054: Knob010
+    4300056: Cog_Small005
+    4300058: Knob011
+    4300060: Cog_Small006
+    4300062: Knob012
+    4300064: Cog_Small007
+    4300066: Knob013
+    4300068: Cog_Closed004
+    4300070: Knob014
+    4300072: Cog_Small008
+    4300074: Cog_Open004
+    4300076: Knob015
+    4300078: Cog_Small009
+    4300080: Knob016
+    4300082: Cog_Small010
+    4300084: Knob017
+    4300086: Cog_Small011
+    4300088: Knob018
+    4300090: Knob019
+    4300092: Cog_Open005
+    4300094: Knob020
+    4300096: Cog_Open006
+    4300098: Cog_Small012
+    4300100: Knob021
+    4300102: Cog_Small013
+    4300104: Knob022
+    4300106: Knob023
+    4300108: Cog_Open007
+    4300110: Cog_Small014
+    4300112: Knob024
+    4300114: RailsRightBack001
+    4300116: RailsRightBack002
+    4300118: Recht stuk007
+    4300120: Line116
+    4300122: Line113
+    4300124: Recht stuk
+    4300126: Line014
+    4300128: Recht stuk008
+    4300130: Line114
+    4300132: Recht stuk005
+    4300134: Line117
+    4300136: Hoekje001
+    4300138: Recht stuk012
+    4300140: Line115
+    4300142: Line027
+    4300144: NGon002
+    4300146: Cylinder001
+    4300148: Line118
+    4300150: Line119
+    4300152: Line120
+    4300154: Hoekje002
+    4300156: Recht stuk013
+    4300158: Line122
+    4300160: Recht stuk015
+    4300162: Line123
+    4300164: Recht stuk016
+    4300166: Hoekje003
+    4300168: Recht stuk017
+    4300170: Hoekje004
+    4300172: Recht stuk018
+    4300174: Line124
+    4300176: Line125
+    4300178: Recht stuk019
+    4300180: Line126
+    4300182: Line127
+    4300184: Recht stuk020
+    4300186: Hoekje005
+    4300188: Recht stuk021
+    4300190: Line128
+    4300192: Recht stuk022
+    4300194: Line129
+    4300196: Recht stuk023
+    4300198: Line130
+    4300200: Recht stuk024
+    4300202: Line132
+    4300204: Recht stuk026
+    4300206: Line133
+    4300208: Recht stuk027
+    4300210: Line134
+    4300212: Recht stuk028
+    4300214: Line143
+    4300216: Recht stuk036
+    4300218: Recht stuk037
+    4300220: Cylinder003
+    4300222: Line144
+    4300224: Line145
+    4300226: NGon004
+    4300228: Recht stuk038
+    4300230: Hoekje006
+    4300232: Line146
+    4300234: Line147
+    4300236: Recht stuk039
+    4300238: Hoekje007
+    4300240: Recht stuk040
+    4300242: Line148
+    4300244: Recht stuk041
+    4300246: Line149
+    4300248: Recht stuk042
+    4300250: Line150
+    4300252: Recht stuk043
+    4300254: Line151
+    4300256: Recht stuk044
+    4300258: Line152
+    4300260: Recht stuk045
+    4300262: Line153
+    4300264: Recht stuk046
+    4300266: Line154
+    4300268: Recht stuk047
+    4300270: Line155
+    4300272: Recht stuk048
+    4300274: Line156
+    4300276: Recht stuk049
+    4300278: Line157
+    4300280: Recht stuk050
+    4300282: Line158
+    4300284: Recht stuk051
+    4300286: Line159
+    4300288: Line160
+    4300290: Recht stuk052
+    4300292: Recht stuk053
+    4300294: Hoekje008
+    4300296: Recht stuk054
+    4300298: Hoekje009
+    4300300: Recht stuk055
+    4300302: Line161
+    4300304: Recht stuk056
+    4300306: Line162
+    4300308: Recht stuk057
+    4300310: Line163
+    4300312: Recht stuk058
+    4300314: Line164
+    4300316: Recht stuk059
+    4300318: Line165
+    4300320: Recht stuk060
+    4300322: Line166
+    4300324: Recht stuk061
+    4300326: Line167
+    4300328: Recht stuk062
+    4300330: Line168
+    4300332: Recht stuk063
+    4300334: Line169
+    4300336: Recht stuk064
+    4300338: Line170
+    4300340: Recht stuk065
+    4300342: Line171
+    4300344: Recht stuk066
+    4300346: Line172
+    4300348: Recht stuk067
+    4300350: Hoekje010
+    4300352: Recht stuk068
+    4300354: Line173
+    4300356: Recht stuk069
+    4300358: Cylinder004
+    4300360: Line174
+    4300362: Line175
+    4300364: NGon005
+    4300366: Recht stuk070
+    4300368: Line176
+    4300370: Line177
+    4300372: Recht stuk071
+    4300374: Line178
+    4300376: Line179
+    4300378: Recht stuk072
+    4300380: Line180
+    4300382: Recht stuk073
+    4300384: Line182
+    4300386: Recht stuk075
+    4300388: Line183
+    4300390: Recht stuk076
+    4300392: Line184
+    4300394: Recht stuk077
+    4300396: Line185
+    4300398: Recht stuk078
+    4300400: Line186
+    4300402: Recht stuk079
+    4300404: Hoekje011
+    4300406: Recht stuk080
+    4300408: Line187
+    4300410: Recht stuk081
+    4300412: Hoekje012
+    4300414: Recht stuk082
+    4300416: Line188
+    4300418: Recht stuk083
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BendPipe
+        weight: 1
+      - path: BendPipe/Hoekje001
+        weight: 1
+      - path: BendPipe/Recht stuk012
+        weight: 1
+      - path: BendPipe001
+        weight: 1
+      - path: BendPipe001/Hoekje002
+        weight: 1
+      - path: BendPipe001/Recht stuk013
+        weight: 1
+      - path: BendPipe002
+        weight: 1
+      - path: BendPipe002/Hoekje003
+        weight: 1
+      - path: BendPipe002/Recht stuk017
+        weight: 1
+      - path: BendPipe003
+        weight: 1
+      - path: BendPipe003/Hoekje004
+        weight: 1
+      - path: BendPipe003/Recht stuk018
+        weight: 1
+      - path: BendPipe004
+        weight: 1
+      - path: BendPipe004/Hoekje005
+        weight: 1
+      - path: BendPipe004/Recht stuk021
+        weight: 1
+      - path: BendPipe005
+        weight: 1
+      - path: BendPipe005/Hoekje006
+        weight: 1
+      - path: BendPipe005/Recht stuk038
+        weight: 1
+      - path: BendPipe006
+        weight: 1
+      - path: BendPipe006/Hoekje007
+        weight: 1
+      - path: BendPipe006/Recht stuk040
+        weight: 1
+      - path: BendPipe007
+        weight: 1
+      - path: BendPipe007/Hoekje008
+        weight: 1
+      - path: BendPipe007/Recht stuk054
+        weight: 1
+      - path: BendPipe008
+        weight: 1
+      - path: BendPipe008/Hoekje009
+        weight: 1
+      - path: BendPipe008/Recht stuk055
+        weight: 1
+      - path: BendPipe009
+        weight: 1
+      - path: BendPipe009/Hoekje010
+        weight: 1
+      - path: BendPipe009/Recht stuk068
+        weight: 1
+      - path: BendPipe010
+        weight: 1
+      - path: BendPipe010/Hoekje011
+        weight: 1
+      - path: BendPipe010/Recht stuk080
+        weight: 1
+      - path: BendPipe011
+        weight: 1
+      - path: BendPipe011/Hoekje012
+        weight: 1
+      - path: BendPipe011/Recht stuk082
+        weight: 1
+      - path: CartBox
+        weight: 1
+      - path: ChainsLeft
+        weight: 1
+      - path: ChainsRight
+        weight: 1
+      - path: CogDouble001
+        weight: 1
+      - path: CogDouble001/Cog_Closed002
+        weight: 1
+      - path: CogDouble001/Cog_Small002
+        weight: 1
+      - path: CogDouble001/Knob004
+        weight: 1
+      - path: CogDouble002
+        weight: 1
+      - path: CogDouble002/Cog_Closed004
+        weight: 1
+      - path: CogDouble002/Cog_Small008
+        weight: 1
+      - path: CogDouble002/Knob014
+        weight: 1
+      - path: CogFilled001
+        weight: 1
+      - path: CogFilled001/Cog_Closed003
+        weight: 1
+      - path: CogFilled001/Knob007
+        weight: 1
+      - path: CogOpen001
+        weight: 1
+      - path: CogOpen001/Cog_Open001
+        weight: 1
+      - path: CogOpen001/Knob005
+        weight: 1
+      - path: CogOpen002
+        weight: 1
+      - path: CogOpen002/Cog_Open002
+        weight: 1
+      - path: CogOpen002/Knob006
+        weight: 1
+      - path: CogOpen003
+        weight: 1
+      - path: CogOpen003/Cog_Open003
+        weight: 1
+      - path: CogOpen003/Knob009
+        weight: 1
+      - path: CogOpen004
+        weight: 1
+      - path: CogOpen004/Cog_Open004
+        weight: 1
+      - path: CogOpen004/Knob015
+        weight: 1
+      - path: CogOpen005
+        weight: 1
+      - path: CogOpen005/Cog_Open005
+        weight: 1
+      - path: CogOpen005/Knob019
+        weight: 1
+      - path: CogOpen006
+        weight: 1
+      - path: CogOpen006/Cog_Open006
+        weight: 1
+      - path: CogOpen006/Knob020
+        weight: 1
+      - path: CogOpen007
+        weight: 1
+      - path: CogOpen007/Cog_Open007
+        weight: 1
+      - path: CogOpen007/Knob023
+        weight: 1
+      - path: CogSmall001
+        weight: 1
+      - path: CogSmall001/Cog_Small003
+        weight: 1
+      - path: CogSmall001/Knob008
+        weight: 1
+      - path: CogSmall002
+        weight: 1
+      - path: CogSmall002/Cog_Small004
+        weight: 1
+      - path: CogSmall002/Knob010
+        weight: 1
+      - path: CogSmall003
+        weight: 1
+      - path: CogSmall003/Cog_Small005
+        weight: 1
+      - path: CogSmall003/Knob011
+        weight: 1
+      - path: CogSmall004
+        weight: 1
+      - path: CogSmall004/Cog_Small006
+        weight: 1
+      - path: CogSmall004/Knob012
+        weight: 1
+      - path: CogSmall005
+        weight: 1
+      - path: CogSmall005/Cog_Small007
+        weight: 1
+      - path: CogSmall005/Knob013
+        weight: 1
+      - path: CogSmall006
+        weight: 1
+      - path: CogSmall006/Cog_Small009
+        weight: 1
+      - path: CogSmall006/Knob016
+        weight: 1
+      - path: CogSmall007
+        weight: 1
+      - path: CogSmall007/Cog_Small010
+        weight: 1
+      - path: CogSmall007/Knob017
+        weight: 1
+      - path: CogSmall008
+        weight: 1
+      - path: CogSmall008/Cog_Small011
+        weight: 1
+      - path: CogSmall008/Knob018
+        weight: 1
+      - path: CogSmall009
+        weight: 1
+      - path: CogSmall009/Cog_Small012
+        weight: 1
+      - path: CogSmall009/Knob021
+        weight: 1
+      - path: CogSmall010
+        weight: 1
+      - path: CogSmall010/Cog_Small013
+        weight: 1
+      - path: CogSmall010/Knob022
+        weight: 1
+      - path: CogSmall011
+        weight: 1
+      - path: CogSmall011/Cog_Small014
+        weight: 1
+      - path: CogSmall011/Knob024
+        weight: 1
+      - path: CrossingPipe
+        weight: 1
+      - path: CrossingPipe/Line014
+        weight: 1
+      - path: CrossingPipe/Line113
+        weight: 1
+      - path: CrossingPipe/Recht stuk
+        weight: 1
+      - path: CrossingPipe/Recht stuk008
+        weight: 1
+      - path: CrossingPipe001
+        weight: 1
+      - path: CrossingPipe001/Line122
+        weight: 1
+      - path: CrossingPipe001/Line123
+        weight: 1
+      - path: CrossingPipe001/Recht stuk015
+        weight: 1
+      - path: CrossingPipe001/Recht stuk016
+        weight: 1
+      - path: CrossingPipe002
+        weight: 1
+      - path: CrossingPipe002/Line159
+        weight: 1
+      - path: CrossingPipe002/Line160
+        weight: 1
+      - path: CrossingPipe002/Recht stuk052
+        weight: 1
+      - path: CrossingPipe002/Recht stuk053
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lift
+        weight: 1
+      - path: Line118
+        weight: 1
+      - path: Line119
+        weight: 1
+      - path: Line120
+        weight: 1
+      - path: RailsLeftBack
+        weight: 1
+      - path: RailsLeftFront
+        weight: 1
+      - path: RailsRightBack
+        weight: 1
+      - path: RailsRightBack001
+        weight: 1
+      - path: RailsRightBack002
+        weight: 1
+      - path: RailsRightFront
+        weight: 1
+      - path: StraightPipe
+        weight: 1
+      - path: StraightPipe/Line116
+        weight: 1
+      - path: StraightPipe/Recht stuk007
+        weight: 1
+      - path: StraightPipe002
+        weight: 1
+      - path: StraightPipe002/Line128
+        weight: 1
+      - path: StraightPipe002/Recht stuk022
+        weight: 1
+      - path: StraightPipe003
+        weight: 1
+      - path: StraightPipe003/Line129
+        weight: 1
+      - path: StraightPipe003/Recht stuk023
+        weight: 1
+      - path: StraightPipe004
+        weight: 1
+      - path: StraightPipe004/Line130
+        weight: 1
+      - path: StraightPipe004/Recht stuk024
+        weight: 1
+      - path: StraightPipe006
+        weight: 1
+      - path: StraightPipe006/Line132
+        weight: 1
+      - path: StraightPipe006/Recht stuk026
+        weight: 1
+      - path: StraightPipe007
+        weight: 1
+      - path: StraightPipe007/Line133
+        weight: 1
+      - path: StraightPipe007/Recht stuk027
+        weight: 1
+      - path: StraightPipe008
+        weight: 1
+      - path: StraightPipe008/Line134
+        weight: 1
+      - path: StraightPipe008/Recht stuk028
+        weight: 1
+      - path: StraightPipe015
+        weight: 1
+      - path: StraightPipe015/Line143
+        weight: 1
+      - path: StraightPipe015/Recht stuk036
+        weight: 1
+      - path: StraightPipe016
+        weight: 1
+      - path: StraightPipe016/Line148
+        weight: 1
+      - path: StraightPipe016/Recht stuk041
+        weight: 1
+      - path: StraightPipe017
+        weight: 1
+      - path: StraightPipe017/Line149
+        weight: 1
+      - path: StraightPipe017/Recht stuk042
+        weight: 1
+      - path: StraightPipe018
+        weight: 1
+      - path: StraightPipe018/Line150
+        weight: 1
+      - path: StraightPipe018/Recht stuk043
+        weight: 1
+      - path: StraightPipe019
+        weight: 1
+      - path: StraightPipe019/Line151
+        weight: 1
+      - path: StraightPipe019/Recht stuk044
+        weight: 1
+      - path: StraightPipe020
+        weight: 1
+      - path: StraightPipe020/Line152
+        weight: 1
+      - path: StraightPipe020/Recht stuk045
+        weight: 1
+      - path: StraightPipe021
+        weight: 1
+      - path: StraightPipe021/Line153
+        weight: 1
+      - path: StraightPipe021/Recht stuk046
+        weight: 1
+      - path: StraightPipe022
+        weight: 1
+      - path: StraightPipe022/Line154
+        weight: 1
+      - path: StraightPipe022/Recht stuk047
+        weight: 1
+      - path: StraightPipe023
+        weight: 1
+      - path: StraightPipe023/Line155
+        weight: 1
+      - path: StraightPipe023/Recht stuk048
+        weight: 1
+      - path: StraightPipe024
+        weight: 1
+      - path: StraightPipe024/Line156
+        weight: 1
+      - path: StraightPipe024/Recht stuk049
+        weight: 1
+      - path: StraightPipe025
+        weight: 1
+      - path: StraightPipe025/Line157
+        weight: 1
+      - path: StraightPipe025/Recht stuk050
+        weight: 1
+      - path: StraightPipe026
+        weight: 1
+      - path: StraightPipe026/Line158
+        weight: 1
+      - path: StraightPipe026/Recht stuk051
+        weight: 1
+      - path: StraightPipe027
+        weight: 1
+      - path: StraightPipe027/Line161
+        weight: 1
+      - path: StraightPipe027/Recht stuk056
+        weight: 1
+      - path: StraightPipe028
+        weight: 1
+      - path: StraightPipe028/Line162
+        weight: 1
+      - path: StraightPipe028/Recht stuk057
+        weight: 1
+      - path: StraightPipe029
+        weight: 1
+      - path: StraightPipe029/Line163
+        weight: 1
+      - path: StraightPipe029/Recht stuk058
+        weight: 1
+      - path: StraightPipe030
+        weight: 1
+      - path: StraightPipe030/Line164
+        weight: 1
+      - path: StraightPipe030/Recht stuk059
+        weight: 1
+      - path: StraightPipe031
+        weight: 1
+      - path: StraightPipe031/Line165
+        weight: 1
+      - path: StraightPipe031/Recht stuk060
+        weight: 1
+      - path: StraightPipe032
+        weight: 1
+      - path: StraightPipe032/Line166
+        weight: 1
+      - path: StraightPipe032/Recht stuk061
+        weight: 1
+      - path: StraightPipe033
+        weight: 1
+      - path: StraightPipe033/Line167
+        weight: 1
+      - path: StraightPipe033/Recht stuk062
+        weight: 1
+      - path: StraightPipe034
+        weight: 1
+      - path: StraightPipe034/Line168
+        weight: 1
+      - path: StraightPipe034/Recht stuk063
+        weight: 1
+      - path: StraightPipe035
+        weight: 1
+      - path: StraightPipe035/Line169
+        weight: 1
+      - path: StraightPipe035/Recht stuk064
+        weight: 1
+      - path: StraightPipe036
+        weight: 1
+      - path: StraightPipe036/Line170
+        weight: 1
+      - path: StraightPipe036/Recht stuk065
+        weight: 1
+      - path: StraightPipe037
+        weight: 1
+      - path: StraightPipe037/Line171
+        weight: 1
+      - path: StraightPipe037/Recht stuk066
+        weight: 1
+      - path: StraightPipe038
+        weight: 1
+      - path: StraightPipe038/Line172
+        weight: 1
+      - path: StraightPipe038/Recht stuk067
+        weight: 1
+      - path: StraightPipe039
+        weight: 1
+      - path: StraightPipe039/Line173
+        weight: 1
+      - path: StraightPipe039/Recht stuk069
+        weight: 1
+      - path: StraightPipe040
+        weight: 1
+      - path: StraightPipe040/Line180
+        weight: 1
+      - path: StraightPipe040/Recht stuk073
+        weight: 1
+      - path: StraightPipe042
+        weight: 1
+      - path: StraightPipe042/Line182
+        weight: 1
+      - path: StraightPipe042/Recht stuk075
+        weight: 1
+      - path: StraightPipe043
+        weight: 1
+      - path: StraightPipe043/Line183
+        weight: 1
+      - path: StraightPipe043/Recht stuk076
+        weight: 1
+      - path: StraightPipe044
+        weight: 1
+      - path: StraightPipe044/Line184
+        weight: 1
+      - path: StraightPipe044/Recht stuk077
+        weight: 1
+      - path: StraightPipe045
+        weight: 1
+      - path: StraightPipe045/Line185
+        weight: 1
+      - path: StraightPipe045/Recht stuk078
+        weight: 1
+      - path: StraightPipe046
+        weight: 1
+      - path: StraightPipe046/Line186
+        weight: 1
+      - path: StraightPipe046/Recht stuk079
+        weight: 1
+      - path: StraightPipe047
+        weight: 1
+      - path: StraightPipe047/Line187
+        weight: 1
+      - path: StraightPipe047/Recht stuk081
+        weight: 1
+      - path: StraightPipe048
+        weight: 1
+      - path: StraightPipe048/Line188
+        weight: 1
+      - path: StraightPipe048/Recht stuk083
+        weight: 1
+      - path: TPipe
+        weight: 1
+      - path: TPipe/Line114
+        weight: 1
+      - path: TPipe/Line117
+        weight: 1
+      - path: TPipe/Recht stuk005
+        weight: 1
+      - path: TPipe001
+        weight: 1
+      - path: TPipe001/Line124
+        weight: 1
+      - path: TPipe001/Line125
+        weight: 1
+      - path: TPipe001/Recht stuk019
+        weight: 1
+      - path: TPipe002
+        weight: 1
+      - path: TPipe002/Line126
+        weight: 1
+      - path: TPipe002/Line127
+        weight: 1
+      - path: TPipe002/Recht stuk020
+        weight: 1
+      - path: TPipe003
+        weight: 1
+      - path: TPipe003/Line146
+        weight: 1
+      - path: TPipe003/Line147
+        weight: 1
+      - path: TPipe003/Recht stuk039
+        weight: 1
+      - path: TPipe004
+        weight: 1
+      - path: TPipe004/Line176
+        weight: 1
+      - path: TPipe004/Line177
+        weight: 1
+      - path: TPipe004/Recht stuk071
+        weight: 1
+      - path: TPipe005
+        weight: 1
+      - path: TPipe005/Line178
+        weight: 1
+      - path: TPipe005/Line179
+        weight: 1
+      - path: TPipe005/Recht stuk072
+        weight: 1
+      - path: ValvePipe
+        weight: 1
+      - path: ValvePipe/Cylinder001
+        weight: 1
+      - path: ValvePipe/Line027
+        weight: 1
+      - path: ValvePipe/Line115
+        weight: 1
+      - path: ValvePipe/NGon002
+        weight: 1
+      - path: ValvePipe002
+        weight: 1
+      - path: ValvePipe002/Cylinder003
+        weight: 1
+      - path: ValvePipe002/Line144
+        weight: 1
+      - path: ValvePipe002/Line145
+        weight: 1
+      - path: ValvePipe002/NGon004
+        weight: 1
+      - path: ValvePipe002/Recht stuk037
+        weight: 1
+      - path: ValvePipe003
+        weight: 1
+      - path: ValvePipe003/Cylinder004
+        weight: 1
+      - path: ValvePipe003/Line174
+        weight: 1
+      - path: ValvePipe003/Line175
+        weight: 1
+      - path: ValvePipe003/NGon005
+        weight: 1
+      - path: ValvePipe003/Recht stuk070
+        weight: 1
+      - path: Wheel002
+        weight: 1
+      - path: Wheel003
+        weight: 1
+      - path: Wheel004
+        weight: 1
+      - path: Wheel005
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -21,7 +21,7 @@ public class PipeManager : MonoBehaviour
         ColorLocations[1] = GameObject.Find("GreenPosition").transform;
         ColorLocations[2] = GameObject.Find("BluePosition").transform;
         IndicatorSphere = GameObject.Find("IndicatorSphere").transform;
-        fillSlider = GameObject.Find("Canvas").transform.FindChild("FillSlider").GetComponent<Slider>();
+        fillSlider = GameObject.Find("PipeCanvas").transform.FindChild("FillSlider").GetComponent<Slider>();
 
         Pipes = new GameObject[transform.childCount];
         pipeID = new int[transform.childCount];
@@ -52,38 +52,38 @@ public class PipeManager : MonoBehaviour
         int count = 0;
         Vector3 newPosition = new Vector3(0, 0, 0);
         newPosition = ((ColorLocations[0].position + ColorLocations[1].position + ColorLocations[2].position) / 3);
-        if (arduino.buttonNumber == 0 || arduino.buttonNumber == 1 || arduino.buttonNumber == 2) { if (!IsClicking) { IsClicking = true; } }
-        if (arduino.buttonNumber == 0)
+        if (arduino.inputNumber == 0 || arduino.inputNumber == 1 || arduino.inputNumber == 2) { if (!IsClicking) { IsClicking = true; } }
+        if (arduino.inputNumber == 0)
         {
             newPosition = ColorLocations[0].position;
             count ++;
         }
-        if (arduino.buttonNumber == 1)
+        if (arduino.inputNumber == 1)
         {
             newPosition = ColorLocations[1].position;
             count++;
         }
-        if (arduino.buttonNumber  == 2)
+        if (arduino.inputNumber  == 2)
         {
             newPosition = ColorLocations[2].position;
             count++;
         }
-        if (arduino.buttonNumber == 3)
+        if (arduino.inputNumber == 3)
         {
             newPosition = (ColorLocations[1].position + ColorLocations[2].position)/2;
             count++;
         }
-        if (arduino.buttonNumber == 4)
+        if (arduino.inputNumber == 4)
         {
             newPosition = (ColorLocations[0].position + ColorLocations[2].position) / 2;
             count++;
         }
-        if (arduino.buttonNumber == 5)
+        if (arduino.inputNumber == 5)
         {
             newPosition = (ColorLocations[0].position + ColorLocations[1].position) / 2;
             count++;
         }
-        if (arduino.buttonNumber == 6 || arduino.buttonNumber == 7)
+        if (arduino.inputNumber == 6 || arduino.inputNumber == 7)
         {
             newPosition = (ColorLocations[0].position + ColorLocations[1].position + ColorLocations[2].position) / 3;
             count++;
@@ -102,35 +102,35 @@ public class PipeManager : MonoBehaviour
             }
             else
             {
-                if (arduino.buttonNumber == 0)
+                if (arduino.inputNumber == 0)
                 {
                     PressedKey(0); //red
                 }
-                if (arduino.buttonNumber == 1)
+                if (arduino.inputNumber == 1)
                 {
                     PressedKey(1); //green
                 }
-                if (arduino.buttonNumber == 2)
+                if (arduino.inputNumber == 2)
                 {
                     PressedKey(2); //blue
                 }
-                if (arduino.buttonNumber == 3)
+                if (arduino.inputNumber == 3)
                 {
                     PressedKey(3); //cyan
                 }
-                if (arduino.buttonNumber == 4)
+                if (arduino.inputNumber == 4)
                 {
                     PressedKey(4); //magenta
                 }
-                if (arduino.buttonNumber == 5)
+                if (arduino.inputNumber == 5)
                 {
                     PressedKey(5); //yellow
                 }
-                if (arduino.buttonNumber == 6)
+                if (arduino.inputNumber == 6)
                 {
                     PressedKey(6); //white
                 }
-                if (arduino.buttonNumber == 7)
+                if (arduino.inputNumber == 7)
                 {
                     PressedKey(6); //white
                 }

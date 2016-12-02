@@ -5,11 +5,32 @@ using System.IO.Ports;
 public class Arduino : MonoBehaviour
 {
     public SerialPort sp = new SerialPort("COM3", 9600);
-    public int buttonNumber;
+    public int inputNumber;
+
+    private static Arduino instance = null;
+
+    // Game Instance Singleton
+    public static Arduino Instance
+    {
+        get
+        {
+            return instance;
+        }
+    }
 
     void Start()
     {
-        sp.Open();        
+        if (sp.IsOpen)
+        {
+            try
+            {
+                sp.Open();
+            }
+            catch (System.Exception)
+            {
+                throw;
+            }
+        }
         sp.ReadTimeout = 100;
     }
     
@@ -19,7 +40,7 @@ public class Arduino : MonoBehaviour
         {
             try
             {
-                buttonNumber = sp.ReadByte();
+                inputNumber = sp.ReadByte();
             }
             catch (System.Exception)
             {

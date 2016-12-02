@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: 8fe7457817cf1fd4c915e00dc95fb848
+timeCreated: 1480676400
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm002
+    100002: Arm1
+    100004: CylinderLock
+    100006: CylinderLock001
+    100008: //RootNode
+    100010: DoorHatch
+    100012: DoorHatch001
+    100014: LongBar
+    100016: LongBar001
+    400000: Arm002
+    400002: Arm1
+    400004: CylinderLock
+    400006: CylinderLock001
+    400008: //RootNode
+    400010: DoorHatch
+    400012: DoorHatch001
+    400014: LongBar
+    400016: LongBar001
+    2300000: Arm002
+    2300002: Arm1
+    2300004: CylinderLock
+    2300006: CylinderLock001
+    2300008: DoorHatch
+    2300010: DoorHatch001
+    2300012: LongBar
+    2300014: LongBar001
+    3300000: Arm002
+    3300002: Arm1
+    3300004: CylinderLock
+    3300006: CylinderLock001
+    3300008: DoorHatch
+    3300010: DoorHatch001
+    3300012: LongBar
+    3300014: LongBar001
+    4300000: DoorHatch
+    4300002: CylinderLock
+    4300004: Arm1
+    4300006: LongBar
+    4300008: DoorHatch001
+    4300010: CylinderLock001
+    4300012: Arm002
+    4300014: LongBar001
+    7400000: OpenDoor
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: OpenDoor
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 93
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm1
+        weight: 1
+      - path: Arm002
+        weight: 1
+      - path: CylinderLock
+        weight: 1
+      - path: CylinderLock001
+        weight: 1
+      - path: DoorHatch
+        weight: 1
+      - path: DoorHatch001
+        weight: 1
+      - path: LongBar
+        weight: 1
+      - path: LongBar001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

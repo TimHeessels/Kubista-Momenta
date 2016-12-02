@@ -11,14 +11,18 @@ public class Notes : MonoBehaviour
     private int selectedNote;
     private int amountOfNotes;
     private bool allowInput = true;
+    private Vector3[] origin;
+
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
         amountOfNotes = transform.childCount;
         notes = new SpriteRenderer[amountOfNotes+1];
+        origin = new Vector3[amountOfNotes + 1];
         for (int i = 0; i < amountOfNotes; i++)
         {
             notes[i] = transform.GetChild(i).GetComponent<SpriteRenderer>();
+            origin[i] = notes[i].transform.localPosition;
         }
         positions = new int[amountOfNotes];
         correctPositions = new int[amountOfNotes];
@@ -78,7 +82,7 @@ public class Notes : MonoBehaviour
                 if (i == selectedNote) notes[i].color = new Color(1, 1, 1);
                 else notes[i].color = new Color(0, 0, 0);
                 //notes[i].transform.position = new Vector3(notes[i].transform.position.x, -0.35f + (0.51f * positions[i]), notes[i].transform.position.z);
-                notes[i].transform.position = Vector3.Lerp(notes[i].transform.position, new Vector3(notes[i].transform.position.x, -0.35f + (0.51f * positions[i]), notes[i].transform.position.z), Time.deltaTime*15);
+                notes[i].transform.localPosition = Vector3.Lerp(notes[i].transform.localPosition, new Vector3(notes[i].transform.localPosition.x, origin[i].y + (0.51f * positions[i]), notes[i].transform.localPosition.z), Time.deltaTime*15);
                 if (positions[i] != correctPositions[i])
                 {
                     isCorrect = false;

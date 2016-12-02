@@ -31,7 +31,6 @@ public class PlayerLamp : MonoBehaviour
     public GameObject[] bridges;
     public Animator[] bridgesAnimators;
     private GameObject lightActivate;
-    private SceneSwitcher sceneSwitcher;
 
     void Start()
     {
@@ -55,7 +54,6 @@ public class PlayerLamp : MonoBehaviour
         }
         startPlaceAnimator = GameObject.Find("StartPanelAnimation").GetComponent<Animator>();
         lightActivate = GameObject.Find("LightActivate"); lightActivate.SetActive(false);
-        sceneSwitcher = GameObject.Find("GameManager").GetComponent<SceneSwitcher>();
         StartCoroutine(PlayRespawnAnimation());
     }
 
@@ -188,7 +186,7 @@ public class PlayerLamp : MonoBehaviour
             playerAnimator.Play("Death");
             yield return new WaitForSeconds(.5f);
             yield return new WaitForSeconds(playerAnimator.GetCurrentAnimatorStateInfo(0).length);
-            sceneSwitcher.ResetScene(0);
+            //resetScene
         }
         if (playerTriggerChecker.selectedButton != "")
         {

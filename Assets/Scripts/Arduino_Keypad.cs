@@ -4,8 +4,6 @@ using System.Collections;
 
 public class Arduino_Keypad : MonoBehaviour
 {
-    public SerialPort sp = new SerialPort("COM3", 9600);
-
     public AudioClip[] tones;
     private AudioSource audioSource;
     private int[] passCode;
@@ -14,11 +12,7 @@ public class Arduino_Keypad : MonoBehaviour
     private bool allowInput;
 
     void Start()
-    {
-        sp.Open();
-        sp.ReadTimeout = 100;
-        sp.WriteTimeout = 100;
-
+    {     
         audioSource = GetComponent<AudioSource>();
 
         allowInput = true;
@@ -36,14 +30,10 @@ public class Arduino_Keypad : MonoBehaviour
 
     void Update()
     {
-        try
+        if (Arduino.Instance.inputNumber == 0)
         {
-            PressedKey(sp.ReadByte());
-        }
-        catch (System.Exception)
-        {            
-            return;
-        }    
+            PressedKey(Arduino.Instance.inputNumber);
+        } 
     }
 
     void PressedKey(int key)
