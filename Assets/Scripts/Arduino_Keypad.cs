@@ -30,10 +30,12 @@ public class Arduino_Keypad : MonoBehaviour
 
     void Update()
     {
+        /*
         if (Arduino.Instance.inputNumber == 0)
         {
             PressedKey(Arduino.Instance.inputNumber);
         } 
+        */
     }
 
     void PressedKey(int key)

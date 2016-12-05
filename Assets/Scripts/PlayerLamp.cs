@@ -18,11 +18,6 @@ public class PlayerLamp : MonoBehaviour
     private Animator playerAnimator;
     private Animator startPlaceAnimator;
 
-    public Camera camera1;
-    public Camera camera2;
-    public Camera camera3;
-    public Camera camera4;
-
     private Vector3 startPosition;
     public bool godMode;
     public bool freezeMovement;
