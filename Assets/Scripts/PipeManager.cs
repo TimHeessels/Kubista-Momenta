@@ -5,17 +5,16 @@ using System.IO.Ports;
 
 public class PipeManager : MonoBehaviour
 {
+    /*
     public  int[] pipeID;
     public GameObject[] Pipes;
     private Transform IndicatorSphere;
     private Transform[] ColorLocations;
     private bool IsClicking;
     private Slider fillSlider;
-    private Arduino arduino;
 
     void Start ()
     {
-        arduino = GameObject.Find("ArduinoManager").GetComponent<Arduino>();
         ColorLocations = new Transform[7];
         ColorLocations[0] = GameObject.Find("RedPosition").transform;
         ColorLocations[1] = GameObject.Find("GreenPosition").transform;
@@ -49,6 +48,7 @@ public class PipeManager : MonoBehaviour
 
 	void Update ()
     {
+        
         int count = 0;
         Vector3 newPosition = new Vector3(0, 0, 0);
         newPosition = ((ColorLocations[0].position + ColorLocations[1].position + ColorLocations[2].position) / 3);
@@ -90,6 +90,7 @@ public class PipeManager : MonoBehaviour
             fillSlider.value = 0;
         }
         IndicatorSphere.position = Vector3.Lerp(IndicatorSphere.position, newPosition, Time.deltaTime * 10);
+        
     }
 
     void FixedUpdate()
@@ -141,48 +142,6 @@ public class PipeManager : MonoBehaviour
         }
     }
 
-    /*
-    IEnumerator Timer()
-    {
-        IsClicking = true;
-        yield return new WaitForSeconds(1f);
-        if (Input.GetKey(KeyCode.R) && Input.GetKey(KeyCode.G) && Input.GetKey(KeyCode.B))
-        {
-            PressedKey(6); //white
-        }
-        if (!Input.GetKey(KeyCode.R) && !Input.GetKey(KeyCode.G) && !Input.GetKey(KeyCode.B))
-        {
-            PressedKey(6); //white
-        }
-        if (!Input.GetKey(KeyCode.R) && Input.GetKey(KeyCode.G) && Input.GetKey(KeyCode.B))
-        {
-            PressedKey(3); //Lightblue
-        }
-        if (Input.GetKey(KeyCode.R) && !Input.GetKey(KeyCode.G) && Input.GetKey(KeyCode.B))
-        {
-            PressedKey(4); //pink
-        }
-        if (Input.GetKey(KeyCode.R) && Input.GetKey(KeyCode.G) && !Input.GetKey(KeyCode.B))
-        {
-            PressedKey(5); //yellow
-        }
-        if (Input.GetKey(KeyCode.R) && !Input.GetKey(KeyCode.G) && !Input.GetKey(KeyCode.B))
-        {
-            PressedKey(0); //red
-        }
-        if (!Input.GetKey(KeyCode.R) && !Input.GetKey(KeyCode.G) && Input.GetKey(KeyCode.B))
-        {
-            PressedKey(2); //blue
-        }
-        if (!Input.GetKey(KeyCode.R) && Input.GetKey(KeyCode.G) && !Input.GetKey(KeyCode.B))
-        {
-            PressedKey(1); //green
-        }
-
-        IsClicking = false;
-    }
-    */
-
     void PressedKey(int keyID)
     {
         for (int i = 0; i < Pipes.Length; i++)
@@ -194,4 +153,6 @@ public class PipeManager : MonoBehaviour
             }
         }
     }
+    */
+    
 }

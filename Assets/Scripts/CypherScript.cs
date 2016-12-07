@@ -11,11 +11,12 @@ public class CypherScript : MonoBehaviour
     private float[] completedMessageLocation;
     private bool[] inPlace;
     private int selectedWheel;
-    private float[] rotation;
+    public float[] rotation;
     private float margin;
     private int finished;
     private bool activatedFinishTimer;
     private bool activateCorrectMessage;
+    
 
     void Start ()
     {
@@ -72,17 +73,17 @@ public class CypherScript : MonoBehaviour
         {
             if (activateCorrectMessage)
             {
-                Rings[i].transform.rotation = Quaternion.Slerp(Rings[i].transform.rotation, Quaternion.Euler(0, -90, completedMessageLocation[i]), Time.deltaTime * 3);
+                Rings[i].transform.rotation = Quaternion.Slerp(Rings[i].transform.rotation, Quaternion.Euler(0, 90, completedMessageLocation[i]), Time.deltaTime * 3);
             }
             else
             {
                 if (finished < 5)
                 {
-                    Rings[i].transform.rotation = Quaternion.Slerp(Rings[i].transform.rotation, Quaternion.Euler(0, -90, rotation[i]), Time.deltaTime * 10);
+                    Rings[i].transform.rotation = Quaternion.Slerp(Rings[i].transform.rotation, Quaternion.Euler(0, 90, rotation[i]), Time.deltaTime * 10);
                 }
                 else
                 {
-                    Rings[i].transform.rotation = Quaternion.Slerp(Rings[i].transform.rotation, Quaternion.Euler(0, -90, finishLocation[i]), Time.deltaTime * 3);
+                    Rings[i].transform.rotation = Quaternion.Slerp(Rings[i].transform.rotation, Quaternion.Euler(0, 90, finishLocation[i]), Time.deltaTime * 3);
                 }
                 if (i == selectedWheel && finished < 5)
                 {
@@ -94,30 +95,40 @@ public class CypherScript : MonoBehaviour
                 }
             }
         }
+
+        if (finished > 4 && !activatedFinishTimer)
+        {
+            StartCoroutine(FlashGreenLights());
+            activatedFinishTimer = true;
+            StartCoroutine(FinishTimer());            
+        }
+    }
+
+    public void Rotate(bool Right)
+    {
+        if (Right)
+        {
+            rotation[selectedWheel] += 13.85f;
+        }
+        else
+        {
+            rotation[selectedWheel] -= 13.85f;
+        }
+    }
+
+    public void SwitchRing(bool Right)
+    {
         if (finished < 5)
         {
-            if (Input.GetButtonDown("Submit")) //switch selected 
+            if (Right) //switch selected 
             {
                 if (selectedWheel < 4) selectedWheel++;
                 else selectedWheel = 0;
             }
-            rotation[selectedWheel] += (Input.GetAxis("Vertical") * 0.5f);
-            if (rotation[selectedWheel] > 360)
+            else
             {
-                rotation[selectedWheel] = 0;
-            }
-            if (rotation[selectedWheel] < 0)
-            {
-                rotation[selectedWheel] = 360;
-            }
-        }
-        else
-        {
-            if (!activatedFinishTimer)
-            {
-                StartCoroutine(FlashGreenLights());
-                activatedFinishTimer = true;
-                StartCoroutine(FinishTimer());
+                if (selectedWheel > 0) selectedWheel--;
+                else selectedWheel = 4;
             }
         }
     }

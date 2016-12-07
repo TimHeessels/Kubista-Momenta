@@ -35,6 +35,17 @@ public class GlobalGameManger : MonoBehaviour
     //12- Outro             -- Camera: None
     //-------------------------------------
 
+    private static GlobalGameManger instance = null;
+
+    // Game Instance Singleton
+    public static GlobalGameManger Instance
+    {
+        get
+        {
+            return instance;
+        }
+    }
+
     void Start()
     {
         puzzleIsDisplayedOnScreen = new bool[12,3];
@@ -125,7 +136,8 @@ public class GlobalGameManger : MonoBehaviour
         {
             betaTexts[i].text = "Arcanum BETA V0.1 - Loading new puzzle. . .";
         }
-        CurrentPuzzle++;        
+        //CurrentPuzzle++;
+        CurrentPuzzle = 11;
         if (cartAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1) //if cart is in front
         {
             audiosource.clip = clips[3];
@@ -184,13 +196,8 @@ public class GlobalGameManger : MonoBehaviour
             audiosource.Play();
             cartAnimator.SetFloat("Speed", 1); //move the cart back to the front
         }
-        if (waitForDoorsToOpen) yield return new WaitForSeconds(5f); //wait for the cart to arrive
-
-
-
-
-        //beta text update
-        UpdateBetaTexts();
+        if (waitForDoorsToOpen) yield return new WaitForSeconds(5f); //wait for the cart to arrive        
+        UpdateBetaTexts();//beta text update
     }
 
     void UpdateBetaTexts()
